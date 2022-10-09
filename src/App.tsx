@@ -8,7 +8,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Build Test <br /> MODE: {process.env.REACT_APP_MODE} <br />
+          API_URL: {process.env.REACT_APP_API_URL}
         </p>
         <a
           className="App-link"
